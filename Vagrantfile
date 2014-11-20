@@ -20,7 +20,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Every Vagrant virtual environment requires a box to build off of.
   # If this value is a shorthand to a box in Vagrant Cloud then 
   # config.vm.box_url doesn't need to be specified.
-  config.vm.box = "centos65-x86_64-20140116"
+  config.vm.box = "CentOS-6.5-x86_64-v20140504"
 
   if Vagrant.has_plugin?("vagrant-cachier")
     config.cache.scope = :box
